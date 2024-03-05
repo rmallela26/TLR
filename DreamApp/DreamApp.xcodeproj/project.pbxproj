@@ -1,0 +1,1137 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8731F9562A3AE118004CC53B /* DreamAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8731F9552A3AE118004CC53B /* DreamAppApp.swift */; };
+		8731F9582A3AE118004CC53B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8731F9572A3AE118004CC53B /* ContentView.swift */; };
+		8731F95A2A3AE11A004CC53B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8731F9592A3AE11A004CC53B /* Assets.xcassets */; };
+		8731F95D2A3AE11A004CC53B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8731F95C2A3AE11A004CC53B /* Preview Assets.xcassets */; };
+		8731F9672A3AE11B004CC53B /* DreamAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8731F9662A3AE11B004CC53B /* DreamAppTests.swift */; };
+		8731F9712A3AE11B004CC53B /* DreamAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8731F9702A3AE11B004CC53B /* DreamAppUITests.swift */; };
+		8731F9732A3AE11B004CC53B /* DreamAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8731F9722A3AE11B004CC53B /* DreamAppUITestsLaunchTests.swift */; };
+		8731F9792A3AE11B004CC53B /* DreamApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8731F9782A3AE11B004CC53B /* DreamApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8731F97E2A3AE11B004CC53B /* DreamAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8731F97D2A3AE11B004CC53B /* DreamAppApp.swift */; };
+		8731F9802A3AE11B004CC53B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8731F97F2A3AE11B004CC53B /* ContentView.swift */; };
+		8731F9822A3AE11C004CC53B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8731F9812A3AE11C004CC53B /* Assets.xcassets */; };
+		8731F9852A3AE11C004CC53B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8731F9842A3AE11C004CC53B /* Preview Assets.xcassets */; };
+		8731F98F2A3AE11C004CC53B /* DreamApp_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8731F98E2A3AE11C004CC53B /* DreamApp_Watch_AppTests.swift */; };
+		8731F9992A3AE11C004CC53B /* DreamApp_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8731F9982A3AE11C004CC53B /* DreamApp_Watch_AppUITests.swift */; };
+		8731F99B2A3AE11C004CC53B /* DreamApp_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8731F99A2A3AE11C004CC53B /* DreamApp_Watch_AppUITestsLaunchTests.swift */; };
+		8731F9B22A3AE8CE004CC53B /* WatchConnectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8731F9B12A3AE8CE004CC53B /* WatchConnectivity.swift */; };
+		8731F9B32A3AE8CE004CC53B /* WatchConnectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8731F9B12A3AE8CE004CC53B /* WatchConnectivity.swift */; };
+		8731F9BA2A3AE9B5004CC53B /* SleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8731F9B92A3AE9B5004CC53B /* SleepView.swift */; };
+		8731F9BF2A3AED4C004CC53B /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8731F9BE2A3AED4C004CC53B /* WorkoutManager.swift */; };
+		8731F9C12A3AED58004CC53B /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8731F9C02A3AED58004CC53B /* MotionManager.swift */; };
+		8731F9C82A3AF00D004CC53B /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8731F9C72A3AF00D004CC53B /* Driver.swift */; };
+		87D4FF342A3CD7F0001197FC /* EndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D4FF332A3CD7F0001197FC /* EndView.swift */; };
+		87D4FF3F2A3D38E0001197FC /* ServerCommunication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D4FF3E2A3D38E0001197FC /* ServerCommunication.swift */; };
+		87D4FF412A3D3CCD001197FC /* StimulusActivation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D4FF402A3D3CCD001197FC /* StimulusActivation.swift */; };
+		87D4FF432A3D4603001197FC /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D4FF422A3D4603001197FC /* SoundPlayer.swift */; };
+		87D4FF452A3D4680001197FC /* Morse Code Audio File.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87D4FF442A3D4680001197FC /* Morse Code Audio File.m4a */; };
+		87D4FF472A3D5518001197FC /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D4FF462A3D5518001197FC /* SummaryView.swift */; };
+		87D4FF4B2A3D5984001197FC /* PauseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D4FF4A2A3D5984001197FC /* PauseView.swift */; };
+		87D4FF4D2A3ECEA0001197FC /* SleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D4FF4C2A3ECEA0001197FC /* SleepView.swift */; };
+		87F6E9E02A620904003198F3 /* TLR Training Recording.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87F6E9DF2A620904003198F3 /* TLR Training Recording.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8731F9632A3AE11B004CC53B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8731F94A2A3AE118004CC53B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8731F9512A3AE118004CC53B;
+			remoteInfo = DreamApp;
+		};
+		8731F96D2A3AE11B004CC53B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8731F94A2A3AE118004CC53B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8731F9512A3AE118004CC53B;
+			remoteInfo = DreamApp;
+		};
+		8731F97A2A3AE11B004CC53B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8731F94A2A3AE118004CC53B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8731F9772A3AE11B004CC53B;
+			remoteInfo = "DreamApp Watch App";
+		};
+		8731F98B2A3AE11C004CC53B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8731F94A2A3AE118004CC53B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8731F9772A3AE11B004CC53B;
+			remoteInfo = "DreamApp Watch App";
+		};
+		8731F9952A3AE11C004CC53B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8731F94A2A3AE118004CC53B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8731F9772A3AE11B004CC53B;
+			remoteInfo = "DreamApp Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8731F9A12A3AE11C004CC53B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8731F9792A3AE11B004CC53B /* DreamApp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8731F9522A3AE118004CC53B /* DreamApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8731F9552A3AE118004CC53B /* DreamAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamAppApp.swift; sourceTree = "<group>"; };
+		8731F9572A3AE118004CC53B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8731F9592A3AE11A004CC53B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8731F95C2A3AE11A004CC53B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8731F9622A3AE11B004CC53B /* DreamAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8731F9662A3AE11B004CC53B /* DreamAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamAppTests.swift; sourceTree = "<group>"; };
+		8731F96C2A3AE11B004CC53B /* DreamAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8731F9702A3AE11B004CC53B /* DreamAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamAppUITests.swift; sourceTree = "<group>"; };
+		8731F9722A3AE11B004CC53B /* DreamAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8731F9782A3AE11B004CC53B /* DreamApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DreamApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8731F97D2A3AE11B004CC53B /* DreamAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamAppApp.swift; sourceTree = "<group>"; };
+		8731F97F2A3AE11B004CC53B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8731F9812A3AE11C004CC53B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8731F9842A3AE11C004CC53B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8731F98A2A3AE11C004CC53B /* DreamApp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DreamApp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8731F98E2A3AE11C004CC53B /* DreamApp_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamApp_Watch_AppTests.swift; sourceTree = "<group>"; };
+		8731F9942A3AE11C004CC53B /* DreamApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DreamApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8731F9982A3AE11C004CC53B /* DreamApp_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamApp_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		8731F99A2A3AE11C004CC53B /* DreamApp_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamApp_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8731F9B12A3AE8CE004CC53B /* WatchConnectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivity.swift; sourceTree = "<group>"; };
+		8731F9B92A3AE9B5004CC53B /* SleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepView.swift; sourceTree = "<group>"; };
+		8731F9BB2A3AEAC5004CC53B /* DreamApp-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DreamApp-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		8731F9BC2A3AEACF004CC53B /* DreamApp Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "DreamApp Watch App.entitlements"; sourceTree = "<group>"; };
+		8731F9BE2A3AED4C004CC53B /* WorkoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
+		8731F9C02A3AED58004CC53B /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		8731F9C72A3AF00D004CC53B /* Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
+		87D4FF332A3CD7F0001197FC /* EndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndView.swift; sourceTree = "<group>"; };
+		87D4FF3E2A3D38E0001197FC /* ServerCommunication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerCommunication.swift; sourceTree = "<group>"; };
+		87D4FF402A3D3CCD001197FC /* StimulusActivation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StimulusActivation.swift; sourceTree = "<group>"; };
+		87D4FF422A3D4603001197FC /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		87D4FF442A3D4680001197FC /* Morse Code Audio File.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Morse Code Audio File.m4a"; sourceTree = "<group>"; };
+		87D4FF462A3D5518001197FC /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		87D4FF4A2A3D5984001197FC /* PauseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseView.swift; sourceTree = "<group>"; };
+		87D4FF4C2A3ECEA0001197FC /* SleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepView.swift; sourceTree = "<group>"; };
+		87F6E9DF2A620904003198F3 /* TLR Training Recording.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TLR Training Recording.m4a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8731F94F2A3AE118004CC53B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8731F95F2A3AE11B004CC53B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8731F9692A3AE11B004CC53B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8731F9752A3AE11B004CC53B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8731F9872A3AE11C004CC53B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8731F9912A3AE11C004CC53B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8731F9492A3AE118004CC53B = {
+			isa = PBXGroup;
+			children = (
+				8731F9B12A3AE8CE004CC53B /* WatchConnectivity.swift */,
+				8731F9542A3AE118004CC53B /* DreamApp */,
+				8731F9652A3AE11B004CC53B /* DreamAppTests */,
+				8731F96F2A3AE11B004CC53B /* DreamAppUITests */,
+				8731F97C2A3AE11B004CC53B /* DreamApp Watch App */,
+				8731F98D2A3AE11C004CC53B /* DreamApp Watch AppTests */,
+				8731F9972A3AE11C004CC53B /* DreamApp Watch AppUITests */,
+				8731F9532A3AE118004CC53B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8731F9532A3AE118004CC53B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8731F9522A3AE118004CC53B /* DreamApp.app */,
+				8731F9622A3AE11B004CC53B /* DreamAppTests.xctest */,
+				8731F96C2A3AE11B004CC53B /* DreamAppUITests.xctest */,
+				8731F9782A3AE11B004CC53B /* DreamApp Watch App.app */,
+				8731F98A2A3AE11C004CC53B /* DreamApp Watch AppTests.xctest */,
+				8731F9942A3AE11C004CC53B /* DreamApp Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8731F9542A3AE118004CC53B /* DreamApp */ = {
+			isa = PBXGroup;
+			children = (
+				87D4FF492A3D5892001197FC /* Models */,
+				87D4FF482A3D5864001197FC /* Views */,
+				8731F9552A3AE118004CC53B /* DreamAppApp.swift */,
+				87F6E9DF2A620904003198F3 /* TLR Training Recording.m4a */,
+				87D4FF442A3D4680001197FC /* Morse Code Audio File.m4a */,
+				8731F9592A3AE11A004CC53B /* Assets.xcassets */,
+				8731F95B2A3AE11A004CC53B /* Preview Content */,
+			);
+			path = DreamApp;
+			sourceTree = "<group>";
+		};
+		8731F95B2A3AE11A004CC53B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8731F95C2A3AE11A004CC53B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8731F9652A3AE11B004CC53B /* DreamAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8731F9662A3AE11B004CC53B /* DreamAppTests.swift */,
+			);
+			path = DreamAppTests;
+			sourceTree = "<group>";
+		};
+		8731F96F2A3AE11B004CC53B /* DreamAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8731F9702A3AE11B004CC53B /* DreamAppUITests.swift */,
+				8731F9722A3AE11B004CC53B /* DreamAppUITestsLaunchTests.swift */,
+			);
+			path = DreamAppUITests;
+			sourceTree = "<group>";
+		};
+		8731F97C2A3AE11B004CC53B /* DreamApp Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				8731F9BD2A3AED2E004CC53B /* DataCollection */,
+				8731F9BC2A3AEACF004CC53B /* DreamApp Watch App.entitlements */,
+				8731F9BB2A3AEAC5004CC53B /* DreamApp-Watch-App-Info.plist */,
+				8731F9B42A3AE968004CC53B /* Views */,
+				8731F97D2A3AE11B004CC53B /* DreamAppApp.swift */,
+				8731F9C72A3AF00D004CC53B /* Driver.swift */,
+				8731F9812A3AE11C004CC53B /* Assets.xcassets */,
+				8731F9832A3AE11C004CC53B /* Preview Content */,
+			);
+			path = "DreamApp Watch App";
+			sourceTree = "<group>";
+		};
+		8731F9832A3AE11C004CC53B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8731F9842A3AE11C004CC53B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8731F98D2A3AE11C004CC53B /* DreamApp Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8731F98E2A3AE11C004CC53B /* DreamApp_Watch_AppTests.swift */,
+			);
+			path = "DreamApp Watch AppTests";
+			sourceTree = "<group>";
+		};
+		8731F9972A3AE11C004CC53B /* DreamApp Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8731F9982A3AE11C004CC53B /* DreamApp_Watch_AppUITests.swift */,
+				8731F99A2A3AE11C004CC53B /* DreamApp_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "DreamApp Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		8731F9B42A3AE968004CC53B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8731F97F2A3AE11B004CC53B /* ContentView.swift */,
+				8731F9B92A3AE9B5004CC53B /* SleepView.swift */,
+				87D4FF332A3CD7F0001197FC /* EndView.swift */,
+				87D4FF4A2A3D5984001197FC /* PauseView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8731F9BD2A3AED2E004CC53B /* DataCollection */ = {
+			isa = PBXGroup;
+			children = (
+				8731F9BE2A3AED4C004CC53B /* WorkoutManager.swift */,
+				8731F9C02A3AED58004CC53B /* MotionManager.swift */,
+			);
+			path = DataCollection;
+			sourceTree = "<group>";
+		};
+		87D4FF482A3D5864001197FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8731F9572A3AE118004CC53B /* ContentView.swift */,
+				87D4FF4C2A3ECEA0001197FC /* SleepView.swift */,
+				87D4FF462A3D5518001197FC /* SummaryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		87D4FF492A3D5892001197FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				87D4FF3E2A3D38E0001197FC /* ServerCommunication.swift */,
+				87D4FF402A3D3CCD001197FC /* StimulusActivation.swift */,
+				87D4FF422A3D4603001197FC /* SoundPlayer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8731F9512A3AE118004CC53B /* DreamApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8731F9A22A3AE11C004CC53B /* Build configuration list for PBXNativeTarget "DreamApp" */;
+			buildPhases = (
+				8731F94E2A3AE118004CC53B /* Sources */,
+				8731F94F2A3AE118004CC53B /* Frameworks */,
+				8731F9502A3AE118004CC53B /* Resources */,
+				8731F9A12A3AE11C004CC53B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8731F97B2A3AE11B004CC53B /* PBXTargetDependency */,
+			);
+			name = DreamApp;
+			productName = DreamApp;
+			productReference = 8731F9522A3AE118004CC53B /* DreamApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8731F9612A3AE11B004CC53B /* DreamAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8731F9A52A3AE11C004CC53B /* Build configuration list for PBXNativeTarget "DreamAppTests" */;
+			buildPhases = (
+				8731F95E2A3AE11B004CC53B /* Sources */,
+				8731F95F2A3AE11B004CC53B /* Frameworks */,
+				8731F9602A3AE11B004CC53B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8731F9642A3AE11B004CC53B /* PBXTargetDependency */,
+			);
+			name = DreamAppTests;
+			productName = DreamAppTests;
+			productReference = 8731F9622A3AE11B004CC53B /* DreamAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8731F96B2A3AE11B004CC53B /* DreamAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8731F9A82A3AE11C004CC53B /* Build configuration list for PBXNativeTarget "DreamAppUITests" */;
+			buildPhases = (
+				8731F9682A3AE11B004CC53B /* Sources */,
+				8731F9692A3AE11B004CC53B /* Frameworks */,
+				8731F96A2A3AE11B004CC53B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8731F96E2A3AE11B004CC53B /* PBXTargetDependency */,
+			);
+			name = DreamAppUITests;
+			productName = DreamAppUITests;
+			productReference = 8731F96C2A3AE11B004CC53B /* DreamAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8731F9772A3AE11B004CC53B /* DreamApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8731F99E2A3AE11C004CC53B /* Build configuration list for PBXNativeTarget "DreamApp Watch App" */;
+			buildPhases = (
+				8731F9742A3AE11B004CC53B /* Sources */,
+				8731F9752A3AE11B004CC53B /* Frameworks */,
+				8731F9762A3AE11B004CC53B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DreamApp Watch App";
+			productName = "DreamApp Watch App";
+			productReference = 8731F9782A3AE11B004CC53B /* DreamApp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8731F9892A3AE11C004CC53B /* DreamApp Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8731F9AB2A3AE11C004CC53B /* Build configuration list for PBXNativeTarget "DreamApp Watch AppTests" */;
+			buildPhases = (
+				8731F9862A3AE11C004CC53B /* Sources */,
+				8731F9872A3AE11C004CC53B /* Frameworks */,
+				8731F9882A3AE11C004CC53B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8731F98C2A3AE11C004CC53B /* PBXTargetDependency */,
+			);
+			name = "DreamApp Watch AppTests";
+			productName = "DreamApp Watch AppTests";
+			productReference = 8731F98A2A3AE11C004CC53B /* DreamApp Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8731F9932A3AE11C004CC53B /* DreamApp Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8731F9AE2A3AE11C004CC53B /* Build configuration list for PBXNativeTarget "DreamApp Watch AppUITests" */;
+			buildPhases = (
+				8731F9902A3AE11C004CC53B /* Sources */,
+				8731F9912A3AE11C004CC53B /* Frameworks */,
+				8731F9922A3AE11C004CC53B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8731F9962A3AE11C004CC53B /* PBXTargetDependency */,
+			);
+			name = "DreamApp Watch AppUITests";
+			productName = "DreamApp Watch AppUITests";
+			productReference = 8731F9942A3AE11C004CC53B /* DreamApp Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8731F94A2A3AE118004CC53B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8731F9512A3AE118004CC53B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					8731F9612A3AE11B004CC53B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8731F9512A3AE118004CC53B;
+					};
+					8731F96B2A3AE11B004CC53B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8731F9512A3AE118004CC53B;
+					};
+					8731F9772A3AE11B004CC53B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					8731F9892A3AE11C004CC53B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8731F9772A3AE11B004CC53B;
+					};
+					8731F9932A3AE11C004CC53B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8731F9772A3AE11B004CC53B;
+					};
+				};
+			};
+			buildConfigurationList = 8731F94D2A3AE118004CC53B /* Build configuration list for PBXProject "DreamApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8731F9492A3AE118004CC53B;
+			productRefGroup = 8731F9532A3AE118004CC53B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8731F9512A3AE118004CC53B /* DreamApp */,
+				8731F9612A3AE11B004CC53B /* DreamAppTests */,
+				8731F96B2A3AE11B004CC53B /* DreamAppUITests */,
+				8731F9772A3AE11B004CC53B /* DreamApp Watch App */,
+				8731F9892A3AE11C004CC53B /* DreamApp Watch AppTests */,
+				8731F9932A3AE11C004CC53B /* DreamApp Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8731F9502A3AE118004CC53B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8731F95D2A3AE11A004CC53B /* Preview Assets.xcassets in Resources */,
+				87F6E9E02A620904003198F3 /* TLR Training Recording.m4a in Resources */,
+				8731F95A2A3AE11A004CC53B /* Assets.xcassets in Resources */,
+				87D4FF452A3D4680001197FC /* Morse Code Audio File.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8731F9602A3AE11B004CC53B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8731F96A2A3AE11B004CC53B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8731F9762A3AE11B004CC53B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8731F9852A3AE11C004CC53B /* Preview Assets.xcassets in Resources */,
+				8731F9822A3AE11C004CC53B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8731F9882A3AE11C004CC53B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8731F9922A3AE11C004CC53B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8731F94E2A3AE118004CC53B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8731F9B22A3AE8CE004CC53B /* WatchConnectivity.swift in Sources */,
+				87D4FF472A3D5518001197FC /* SummaryView.swift in Sources */,
+				87D4FF412A3D3CCD001197FC /* StimulusActivation.swift in Sources */,
+				87D4FF3F2A3D38E0001197FC /* ServerCommunication.swift in Sources */,
+				8731F9582A3AE118004CC53B /* ContentView.swift in Sources */,
+				87D4FF432A3D4603001197FC /* SoundPlayer.swift in Sources */,
+				87D4FF4D2A3ECEA0001197FC /* SleepView.swift in Sources */,
+				8731F9562A3AE118004CC53B /* DreamAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8731F95E2A3AE11B004CC53B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8731F9672A3AE11B004CC53B /* DreamAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8731F9682A3AE11B004CC53B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8731F9732A3AE11B004CC53B /* DreamAppUITestsLaunchTests.swift in Sources */,
+				8731F9712A3AE11B004CC53B /* DreamAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8731F9742A3AE11B004CC53B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D4FF342A3CD7F0001197FC /* EndView.swift in Sources */,
+				8731F9B32A3AE8CE004CC53B /* WatchConnectivity.swift in Sources */,
+				8731F9C12A3AED58004CC53B /* MotionManager.swift in Sources */,
+				87D4FF4B2A3D5984001197FC /* PauseView.swift in Sources */,
+				8731F9802A3AE11B004CC53B /* ContentView.swift in Sources */,
+				8731F9C82A3AF00D004CC53B /* Driver.swift in Sources */,
+				8731F97E2A3AE11B004CC53B /* DreamAppApp.swift in Sources */,
+				8731F9BA2A3AE9B5004CC53B /* SleepView.swift in Sources */,
+				8731F9BF2A3AED4C004CC53B /* WorkoutManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8731F9862A3AE11C004CC53B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8731F98F2A3AE11C004CC53B /* DreamApp_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8731F9902A3AE11C004CC53B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8731F99B2A3AE11C004CC53B /* DreamApp_Watch_AppUITestsLaunchTests.swift in Sources */,
+				8731F9992A3AE11C004CC53B /* DreamApp_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8731F9642A3AE11B004CC53B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8731F9512A3AE118004CC53B /* DreamApp */;
+			targetProxy = 8731F9632A3AE11B004CC53B /* PBXContainerItemProxy */;
+		};
+		8731F96E2A3AE11B004CC53B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8731F9512A3AE118004CC53B /* DreamApp */;
+			targetProxy = 8731F96D2A3AE11B004CC53B /* PBXContainerItemProxy */;
+		};
+		8731F97B2A3AE11B004CC53B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8731F9772A3AE11B004CC53B /* DreamApp Watch App */;
+			targetProxy = 8731F97A2A3AE11B004CC53B /* PBXContainerItemProxy */;
+		};
+		8731F98C2A3AE11C004CC53B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8731F9772A3AE11B004CC53B /* DreamApp Watch App */;
+			targetProxy = 8731F98B2A3AE11C004CC53B /* PBXContainerItemProxy */;
+		};
+		8731F9962A3AE11C004CC53B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8731F9772A3AE11B004CC53B /* DreamApp Watch App */;
+			targetProxy = 8731F9952A3AE11C004CC53B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8731F99C2A3AE11C004CC53B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		8731F99D2A3AE11C004CC53B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		8731F99F2A3AE11C004CC53B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "DreamApp Watch App/DreamApp Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DreamApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = XDM4F37D4Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DreamApp-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = DreamApp;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "This application needs to access health data to measure your heart rate while you are sleeping for nightmare detecting purposes";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This application needs to access health data to measure your heart rate while you are sleeping for nightmare detecting purposes";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This application needs to access health data to measure your heart rate while you are sleeping for nightmare detecting purposes";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.rmall.appcoda.DreamApp;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmall.appcoda.DreamApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		8731F9A02A3AE11C004CC53B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "DreamApp Watch App/DreamApp Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DreamApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = XDM4F37D4Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DreamApp-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = DreamApp;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "This application needs to access health data to measure your heart rate while you are sleeping for nightmare detecting purposes";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This application needs to access health data to measure your heart rate while you are sleeping for nightmare detecting purposes";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This application needs to access health data to measure your heart rate while you are sleeping for nightmare detecting purposes";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.rmall.appcoda.DreamApp;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmall.appcoda.DreamApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		8731F9A32A3AE11C004CC53B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DreamApp/Preview Content\"";
+				DEVELOPMENT_TEAM = XDM4F37D4Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DreamApp;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmall.appcoda.DreamApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8731F9A42A3AE11C004CC53B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DreamApp/Preview Content\"";
+				DEVELOPMENT_TEAM = XDM4F37D4Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DreamApp;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmall.appcoda.DreamApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8731F9A62A3AE11C004CC53B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XDM4F37D4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmall.appcoda.DreamAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DreamApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DreamApp";
+			};
+			name = Debug;
+		};
+		8731F9A72A3AE11C004CC53B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XDM4F37D4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmall.appcoda.DreamAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DreamApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DreamApp";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8731F9A92A3AE11C004CC53B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XDM4F37D4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmall.appcoda.DreamAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DreamApp;
+			};
+			name = Debug;
+		};
+		8731F9AA2A3AE11C004CC53B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XDM4F37D4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmall.appcoda.DreamAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DreamApp;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8731F9AC2A3AE11C004CC53B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XDM4F37D4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rmall.appcoda.DreamApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DreamApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DreamApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		8731F9AD2A3AE11C004CC53B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XDM4F37D4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rmall.appcoda.DreamApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DreamApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DreamApp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		8731F9AF2A3AE11C004CC53B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XDM4F37D4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rmall.appcoda.DreamApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "DreamApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		8731F9B02A3AE11C004CC53B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XDM4F37D4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rmall.appcoda.DreamApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "DreamApp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8731F94D2A3AE118004CC53B /* Build configuration list for PBXProject "DreamApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8731F99C2A3AE11C004CC53B /* Debug */,
+				8731F99D2A3AE11C004CC53B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8731F99E2A3AE11C004CC53B /* Build configuration list for PBXNativeTarget "DreamApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8731F99F2A3AE11C004CC53B /* Debug */,
+				8731F9A02A3AE11C004CC53B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8731F9A22A3AE11C004CC53B /* Build configuration list for PBXNativeTarget "DreamApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8731F9A32A3AE11C004CC53B /* Debug */,
+				8731F9A42A3AE11C004CC53B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8731F9A52A3AE11C004CC53B /* Build configuration list for PBXNativeTarget "DreamAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8731F9A62A3AE11C004CC53B /* Debug */,
+				8731F9A72A3AE11C004CC53B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8731F9A82A3AE11C004CC53B /* Build configuration list for PBXNativeTarget "DreamAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8731F9A92A3AE11C004CC53B /* Debug */,
+				8731F9AA2A3AE11C004CC53B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8731F9AB2A3AE11C004CC53B /* Build configuration list for PBXNativeTarget "DreamApp Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8731F9AC2A3AE11C004CC53B /* Debug */,
+				8731F9AD2A3AE11C004CC53B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8731F9AE2A3AE11C004CC53B /* Build configuration list for PBXNativeTarget "DreamApp Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8731F9AF2A3AE11C004CC53B /* Debug */,
+				8731F9B02A3AE11C004CC53B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8731F94A2A3AE118004CC53B /* Project object */;
+}
