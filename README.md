@@ -1,7 +1,7 @@
 # TLR_app
 Targeted Lucidity Reactivation in an iOS/watchOS app
 
-This repository includes the code for the iOS/watchOS application, and the code for the server used for data processing. All code relating to the classifier used to sleep stage is included in the server section. The paper associated with this work is available here [link]
+This repository includes the code for the iOS/watchOS application, and the code for the server used for data processing. All code relating to the classifier used to sleep stage is included in the server section. The paper associated with this work is available at https://journals.ub.uni-heidelberg.de/index.php/IJoDR/article/view/100797
 
 ## iOS/watchOS app
 To access the app code, download the files from the repository and open them in Xcode. To test the app, you can use the simulator, but if you want to test it on a physical device, you might get an error if you don't have an Apple Developer account. 
