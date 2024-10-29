@@ -4,7 +4,7 @@ Targeted Lucidity Reactivation in an iOS/watchOS app
 This repository includes the code for the iOS/watchOS application, and the code for the server used for data processing. All code relating to the classifier used to sleep stage is included in the server section. The paper associated with this work is available here [link]
 
 ## iOS/watchOS app
-You can download the app (Dream Sage) as is from the App Store. To customize the app, download the files from the repository and open them in Xcode. To test the app, you can use the simulator, but if you want to test it on a physical device, you might get an error if you don't have an Apple Developer account. 
+To access the app code, download the files from the repository and open them in Xcode. To test the app, you can use the simulator, but if you want to test it on a physical device, you might get an error if you don't have an Apple Developer account. 
 
 Note that you might need to change a few things in the code such as filepaths and the IP address for your server (if you create a different one). 
 
